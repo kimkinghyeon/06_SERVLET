@@ -31,11 +31,12 @@ public class QueryStringTestServlet extends HttpServlet {
         System.out.println("gender : " + gender);
         String national = request.getParameter("national");
         System.out.println("national : " + national);
-        
+
+        String[] hobbies = request.getParameterValues("hobbies");
+
+        for (String hobby : hobbies){
+            System.out.println(hobby);
+        }
     }
 
-    @Override
-    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
-    }
 }
