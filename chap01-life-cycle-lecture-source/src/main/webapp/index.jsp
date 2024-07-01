@@ -16,15 +16,16 @@ HTML (Hyper Text Markup Language)
 <%-- h 태그들 " 제목을 작성할 떄 --%>
 <h1><%= "Hello World!" %>
 </h1>
-<h1>안녕하세여</h1>
-<h2>안녕하세여</h2>
-<h3>안녕하세여</h3>
-<h4>안녕하세여</h4>
-<h5>안녕하세여</h5>
+<h1>안녕하세여 김선우</h1>
+<h2>안녕하세여 김선우</h2>
+<h3>안녕하세여 김선우</h3>
+<h4>안녕하세여 김선우</h4>
+<h5>안녕하세여 김선우</h5>
 <%-- br 태그 : 줄바꿈--%>
 <br/>
 <%-- a태그 : 다른페이지로 이동할 수 있게 링크를 걸어주는 기능 (href 속성을 이용해 링크 적용) --%>
-<a href="hello-servlet">Hello Servlet</a>
-<a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDmqvsw8BeCpfS8649rxDow2mkSu8kwoJOwpfMNiZgMg8skbSgC5DGtE5g5AZmdP8PNuE&usqp=CAU">응애</a>
+<a href="xml-lifecycle">라이프 사이클 테스트(xml)</a>
+
+<a href="annotation-lifecycle">라이프 사이클 테스트(annotation)</a>
 </body>
 </html>
