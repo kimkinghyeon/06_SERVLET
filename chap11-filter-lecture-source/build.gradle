@@ -26,6 +26,14 @@ dependencies {
 
     testImplementation("org.junit.jupiter:junit-jupiter-api:${junitVersion}")
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:${junitVersion}")
+    // https://mvnrepository.com/artifact/org.springframework.security/spring-security-core
+    // 암호화
+    implementation 'org.springframework.security:spring-security-core:5.7.5'
+    // https://mvnrepository.com/artifact/commons-logging/commons-logging
+    // 암호화 와 같이 사용되는 의존성
+    implementation 'commons-logging:commons-logging:1.2'
+
+
 }
 
 test {
