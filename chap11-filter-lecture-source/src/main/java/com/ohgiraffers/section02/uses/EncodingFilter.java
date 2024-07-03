@@ -5,7 +5,6 @@ import jakarta.servlet.annotation.WebFilter;
 import jakarta.servlet.http.HttpServletRequest;
 
 import java.io.IOException;
-
 @WebFilter("/member/*")
 public class EncodingFilter implements Filter {
 
