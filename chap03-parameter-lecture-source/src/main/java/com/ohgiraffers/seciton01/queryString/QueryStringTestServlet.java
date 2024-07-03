@@ -38,5 +38,5 @@ public class QueryStringTestServlet extends HttpServlet {
             System.out.println(hobby);
         }
     }
-
 }
+

@@ -13,6 +13,7 @@ public class Show404ErrorServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
         response.sendError(404,"ep. 페이지가 없다!? ");
+
     }
 
 }

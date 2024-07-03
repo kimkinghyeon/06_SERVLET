@@ -60,6 +60,7 @@ public class ExceptionHandlerServlet extends HttpServlet {
 
         StringBuilder errorPage = new StringBuilder();
 
+
         errorPage.append("<!doctype html>\n")
                 .append("<html>\n")
                 .append("<head>\n")
